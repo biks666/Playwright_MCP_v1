@@ -1,0 +1,12 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^npx playwright test tests/orangehrm-logout\\.spec\\.ts --project=chromium --reporter=line$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^npx playwright test add-employee\\.spec\\.ts$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
